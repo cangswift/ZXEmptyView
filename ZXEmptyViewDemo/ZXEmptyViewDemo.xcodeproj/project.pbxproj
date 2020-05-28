@@ -7,12 +7,51 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		186FEE53247FB188007E4243 /* AAObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 186FEE52247FB188007E4243 /* AAObject.m */; };
+		186FEE56247FB1B1007E4243 /* AAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 186FEE55247FB1B1007E4243 /* AAViewController.m */; };
+		186FEE59247FB1F2007E4243 /* DemoCollectionViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 742B5298234B0A5700C02C9A /* DemoCollectionViewVC.m */; };
+		186FEE5A247FB1F2007E4243 /* ZXEmptyDetailLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 742B525F23449B0700C02C9A /* ZXEmptyDetailLabel.m */; };
+		186FEE5B247FB1F2007E4243 /* UIView+ZXEmptyLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 742B52692344BA7400C02C9A /* UIView+ZXEmptyLayout.m */; };
+		186FEE5C247FB1F2007E4243 /* UIView+ZXEmptyAutoShow.m in Sources */ = {isa = PBXBuildFile; fileRef = 742B52842348984100C02C9A /* UIView+ZXEmptyAutoShow.m */; };
+		186FEE5D247FB1F2007E4243 /* DemoUIViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 742B52BF234B9DE400C02C9A /* DemoUIViewVC.m */; };
+		186FEE5E247FB1F2007E4243 /* DemoCollectionHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 742B52A2234B114300C02C9A /* DemoCollectionHeaderView.m */; };
+		186FEE5F247FB1F2007E4243 /* AAObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 186FEE52247FB188007E4243 /* AAObject.m */; };
+		186FEE60247FB1F2007E4243 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 742B523E2344503B00C02C9A /* main.m */; };
+		186FEE61247FB1F2007E4243 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 742B52BC234B987E00C02C9A /* MBProgressHUD.m */; };
+		186FEE62247FB1F2007E4243 /* UIViewController+Dealloc.m in Sources */ = {isa = PBXBuildFile; fileRef = 74187882235094F90005BA25 /* UIViewController+Dealloc.m */; };
+		186FEE63247FB1F2007E4243 /* DemoSelectionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 742B52A8234B2D1400C02C9A /* DemoSelectionVC.m */; };
+		186FEE64247FB1F2007E4243 /* AAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 186FEE55247FB1B1007E4243 /* AAViewController.m */; };
+		186FEE65247FB1F2007E4243 /* UILabel+ZXGetStringSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 742B526F2346E5BE00C02C9A /* UILabel+ZXGetStringSize.m */; };
+		186FEE66247FB1F2007E4243 /* DemoMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 748F9CCE2351FC7600190591 /* DemoMain.m */; };
+		186FEE67247FB1F2007E4243 /* NSObject+ZXEmptySwizzleMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 742B528A2348B3BB00C02C9A /* NSObject+ZXEmptySwizzleMethod.m */; };
+		186FEE68247FB1F2007E4243 /* ZXEmptyActionButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 742B526223449B1E00C02C9A /* ZXEmptyActionButton.m */; };
+		186FEE69247FB1F2007E4243 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 742B52302344503900C02C9A /* AppDelegate.m */; };
+		186FEE6A247FB1F2007E4243 /* ZXEmptyContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 742B526C2346D90A00C02C9A /* ZXEmptyContentView.m */; };
+		186FEE6B247FB1F2007E4243 /* ZXEmptyTopImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 742B525923449ADD00C02C9A /* ZXEmptyTopImageView.m */; };
+		186FEE6C247FB1F2007E4243 /* DemoEmptyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 742B52B4234B471100C02C9A /* DemoEmptyView.m */; };
+		186FEE6D247FB1F2007E4243 /* UIView+ZXEmpty.m in Sources */ = {isa = PBXBuildFile; fileRef = 742B5278234832B700C02C9A /* UIView+ZXEmpty.m */; };
+		186FEE6E247FB1F2007E4243 /* DemoCustomViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 742B52C3234BA12000C02C9A /* DemoCustomViewVC.m */; };
+		186FEE6F247FB1F2007E4243 /* DemoCustomEmptyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 742B52B7234B832700C02C9A /* DemoCustomEmptyView.m */; };
+		186FEE70247FB1F2007E4243 /* ZXFullEmptyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 742B527B2348409600C02C9A /* ZXFullEmptyView.m */; };
+		186FEE71247FB1F2007E4243 /* UIView+ZXEmptyViewKVO.m in Sources */ = {isa = PBXBuildFile; fileRef = 742B527523477F4C00C02C9A /* UIView+ZXEmptyViewKVO.m */; };
+		186FEE72247FB1F2007E4243 /* ZXEmptyTitleLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 742B525C23449AF500C02C9A /* ZXEmptyTitleLabel.m */; };
+		186FEE73247FB1F2007E4243 /* DemoTableViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 742B528D2348CA2C00C02C9A /* DemoTableViewVC.m */; };
+		186FEE74247FB1F2007E4243 /* DemoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 742B529D234B0E7000C02C9A /* DemoCollectionViewCell.m */; };
+		186FEE75247FB1F2007E4243 /* DemoBaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 748F9CD32354060B00190591 /* DemoBaseVC.m */; };
+		186FEE78247FB1F2007E4243 /* DemoMain.xib in Resources */ = {isa = PBXBuildFile; fileRef = 748F9CCF2351FC7600190591 /* DemoMain.xib */; };
+		186FEE79247FB1F2007E4243 /* DemoCustomEmptyView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 742B52B9234B833500C02C9A /* DemoCustomEmptyView.xib */; };
+		186FEE7A247FB1F2007E4243 /* DemoSelectionVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 742B52A9234B2D1400C02C9A /* DemoSelectionVC.xib */; };
+		186FEE7B247FB1F2007E4243 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 742B523A2344503B00C02C9A /* LaunchScreen.storyboard */; };
+		186FEE7C247FB1F2007E4243 /* DemoCollectionViewVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 742B5299234B0A5700C02C9A /* DemoCollectionViewVC.xib */; };
+		186FEE7D247FB1F2007E4243 /* DemoTableViewVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 742B528E2348CA2C00C02C9A /* DemoTableViewVC.xib */; };
+		186FEE7E247FB1F2007E4243 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 742B52382344503B00C02C9A /* Assets.xcassets */; };
+		186FEE7F247FB1F2007E4243 /* DemoCollectionHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 742B52A3234B114300C02C9A /* DemoCollectionHeaderView.xib */; };
+		186FEE80247FB1F2007E4243 /* DemoCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 742B529E234B0E7000C02C9A /* DemoCollectionViewCell.xib */; };
 		74187883235094F90005BA25 /* UIViewController+Dealloc.m in Sources */ = {isa = PBXBuildFile; fileRef = 74187882235094F90005BA25 /* UIViewController+Dealloc.m */; };
 		742B52312344503900C02C9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 742B52302344503900C02C9A /* AppDelegate.m */; };
 		742B52392344503B00C02C9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 742B52382344503B00C02C9A /* Assets.xcassets */; };
 		742B523C2344503B00C02C9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 742B523A2344503B00C02C9A /* LaunchScreen.storyboard */; };
 		742B523F2344503B00C02C9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 742B523E2344503B00C02C9A /* main.m */; };
-		742B52492344503C00C02C9A /* ZXEmptyViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 742B52482344503C00C02C9A /* ZXEmptyViewDemoUITests.m */; };
 		742B525A23449ADD00C02C9A /* ZXEmptyTopImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 742B525923449ADD00C02C9A /* ZXEmptyTopImageView.m */; };
 		742B525D23449AF500C02C9A /* ZXEmptyTitleLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 742B525C23449AF500C02C9A /* ZXEmptyTitleLabel.m */; };
 		742B526023449B0700C02C9A /* ZXEmptyDetailLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 742B525F23449B0700C02C9A /* ZXEmptyDetailLabel.m */; };
@@ -46,17 +85,13 @@
 		748F9CD42354060B00190591 /* DemoBaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 748F9CD32354060B00190591 /* DemoBaseVC.m */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		742B52452344503C00C02C9A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 742B52242344503900C02C9A /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 742B522B2344503900C02C9A;
-			remoteInfo = ZXEmptyViewDemo;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		186FEE51247FB188007E4243 /* AAObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AAObject.h; sourceTree = "<group>"; };
+		186FEE52247FB188007E4243 /* AAObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AAObject.m; sourceTree = "<group>"; };
+		186FEE54247FB1B1007E4243 /* AAViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AAViewController.h; sourceTree = "<group>"; };
+		186FEE55247FB1B1007E4243 /* AAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AAViewController.m; sourceTree = "<group>"; };
+		186FEE84247FB1F2007E4243 /* ZXEmptyViewDemo copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ZXEmptyViewDemo copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		186FEE85247FB1F2007E4243 /* ZXEmptyViewDemo copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "ZXEmptyViewDemo copy-Info.plist"; path = "/Users/apple/ZXEmptyView/ZXEmptyViewDemo/ZXEmptyViewDemo copy-Info.plist"; sourceTree = "<absolute>"; };
 		74187881235094F90005BA25 /* UIViewController+Dealloc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Dealloc.h"; sourceTree = "<group>"; };
 		74187882235094F90005BA25 /* UIViewController+Dealloc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Dealloc.m"; sourceTree = "<group>"; };
 		742B522C2344503900C02C9A /* ZXEmptyViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZXEmptyViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -66,7 +101,6 @@
 		742B523B2344503B00C02C9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		742B523D2344503B00C02C9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		742B523E2344503B00C02C9A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		742B52442344503C00C02C9A /* ZXEmptyViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZXEmptyViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		742B52482344503C00C02C9A /* ZXEmptyViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZXEmptyViewDemoUITests.m; sourceTree = "<group>"; };
 		742B524A2344503C00C02C9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		742B525823449ADD00C02C9A /* ZXEmptyTopImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZXEmptyTopImageView.h; sourceTree = "<group>"; };
@@ -128,14 +162,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		742B52292344503900C02C9A /* Frameworks */ = {
+		186FEE76247FB1F2007E4243 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		742B52412344503C00C02C9A /* Frameworks */ = {
+		742B52292344503900C02C9A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -168,6 +202,7 @@
 				742B522E2344503900C02C9A /* ZXEmptyViewDemo */,
 				742B52472344503C00C02C9A /* ZXEmptyViewDemoUITests */,
 				742B522D2344503900C02C9A /* Products */,
+				186FEE85247FB1F2007E4243 /* ZXEmptyViewDemo copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -175,7 +210,7 @@
 			isa = PBXGroup;
 			children = (
 				742B522C2344503900C02C9A /* ZXEmptyViewDemo.app */,
-				742B52442344503C00C02C9A /* ZXEmptyViewDemoUITests.xctest */,
+				186FEE84247FB1F2007E4243 /* ZXEmptyViewDemo copy.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -188,6 +223,10 @@
 				74187880235094C90005BA25 /* ThirdParty(第三方) */,
 				742B522F2344503900C02C9A /* AppDelegate.h */,
 				742B52302344503900C02C9A /* AppDelegate.m */,
+				186FEE51247FB188007E4243 /* AAObject.h */,
+				186FEE54247FB1B1007E4243 /* AAViewController.h */,
+				186FEE55247FB1B1007E4243 /* AAViewController.m */,
+				186FEE52247FB188007E4243 /* AAObject.m */,
 				742B52382344503B00C02C9A /* Assets.xcassets */,
 				742B523A2344503B00C02C9A /* LaunchScreen.storyboard */,
 				742B523D2344503B00C02C9A /* Info.plist */,
@@ -366,6 +405,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		186FEE57247FB1F2007E4243 /* ZXEmptyViewDemo copy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 186FEE81247FB1F2007E4243 /* Build configuration list for PBXNativeTarget "ZXEmptyViewDemo copy" */;
+			buildPhases = (
+				186FEE58247FB1F2007E4243 /* Sources */,
+				186FEE76247FB1F2007E4243 /* Frameworks */,
+				186FEE77247FB1F2007E4243 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ZXEmptyViewDemo copy";
+			productName = ZXEmptyViewDemo;
+			productReference = 186FEE84247FB1F2007E4243 /* ZXEmptyViewDemo copy.app */;
+			productType = "com.apple.product-type.application";
+		};
 		742B522B2344503900C02C9A /* ZXEmptyViewDemo */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 742B524D2344503C00C02C9A /* Build configuration list for PBXNativeTarget "ZXEmptyViewDemo" */;
@@ -383,24 +439,6 @@
 			productReference = 742B522C2344503900C02C9A /* ZXEmptyViewDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		742B52432344503C00C02C9A /* ZXEmptyViewDemoUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 742B52502344503C00C02C9A /* Build configuration list for PBXNativeTarget "ZXEmptyViewDemoUITests" */;
-			buildPhases = (
-				742B52402344503C00C02C9A /* Sources */,
-				742B52412344503C00C02C9A /* Frameworks */,
-				742B52422344503C00C02C9A /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				742B52462344503C00C02C9A /* PBXTargetDependency */,
-			);
-			name = ZXEmptyViewDemoUITests;
-			productName = ZXEmptyViewDemoUITests;
-			productReference = 742B52442344503C00C02C9A /* ZXEmptyViewDemoUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -412,10 +450,6 @@
 				TargetAttributes = {
 					742B522B2344503900C02C9A = {
 						CreatedOnToolsVersion = 10.2;
-					};
-					742B52432344503C00C02C9A = {
-						CreatedOnToolsVersion = 10.2;
-						TestTargetID = 742B522B2344503900C02C9A;
 					};
 				};
 			};
@@ -433,12 +467,28 @@
 			projectRoot = "";
 			targets = (
 				742B522B2344503900C02C9A /* ZXEmptyViewDemo */,
-				742B52432344503C00C02C9A /* ZXEmptyViewDemoUITests */,
+				186FEE57247FB1F2007E4243 /* ZXEmptyViewDemo copy */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		186FEE77247FB1F2007E4243 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				186FEE78247FB1F2007E4243 /* DemoMain.xib in Resources */,
+				186FEE79247FB1F2007E4243 /* DemoCustomEmptyView.xib in Resources */,
+				186FEE7A247FB1F2007E4243 /* DemoSelectionVC.xib in Resources */,
+				186FEE7B247FB1F2007E4243 /* LaunchScreen.storyboard in Resources */,
+				186FEE7C247FB1F2007E4243 /* DemoCollectionViewVC.xib in Resources */,
+				186FEE7D247FB1F2007E4243 /* DemoTableViewVC.xib in Resources */,
+				186FEE7E247FB1F2007E4243 /* Assets.xcassets in Resources */,
+				186FEE7F247FB1F2007E4243 /* DemoCollectionHeaderView.xib in Resources */,
+				186FEE80247FB1F2007E4243 /* DemoCollectionViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		742B522A2344503900C02C9A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -455,16 +505,45 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		742B52422344503C00C02C9A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		186FEE58247FB1F2007E4243 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				186FEE59247FB1F2007E4243 /* DemoCollectionViewVC.m in Sources */,
+				186FEE5A247FB1F2007E4243 /* ZXEmptyDetailLabel.m in Sources */,
+				186FEE5B247FB1F2007E4243 /* UIView+ZXEmptyLayout.m in Sources */,
+				186FEE5C247FB1F2007E4243 /* UIView+ZXEmptyAutoShow.m in Sources */,
+				186FEE5D247FB1F2007E4243 /* DemoUIViewVC.m in Sources */,
+				186FEE5E247FB1F2007E4243 /* DemoCollectionHeaderView.m in Sources */,
+				186FEE5F247FB1F2007E4243 /* AAObject.m in Sources */,
+				186FEE60247FB1F2007E4243 /* main.m in Sources */,
+				186FEE61247FB1F2007E4243 /* MBProgressHUD.m in Sources */,
+				186FEE62247FB1F2007E4243 /* UIViewController+Dealloc.m in Sources */,
+				186FEE63247FB1F2007E4243 /* DemoSelectionVC.m in Sources */,
+				186FEE64247FB1F2007E4243 /* AAViewController.m in Sources */,
+				186FEE65247FB1F2007E4243 /* UILabel+ZXGetStringSize.m in Sources */,
+				186FEE66247FB1F2007E4243 /* DemoMain.m in Sources */,
+				186FEE67247FB1F2007E4243 /* NSObject+ZXEmptySwizzleMethod.m in Sources */,
+				186FEE68247FB1F2007E4243 /* ZXEmptyActionButton.m in Sources */,
+				186FEE69247FB1F2007E4243 /* AppDelegate.m in Sources */,
+				186FEE6A247FB1F2007E4243 /* ZXEmptyContentView.m in Sources */,
+				186FEE6B247FB1F2007E4243 /* ZXEmptyTopImageView.m in Sources */,
+				186FEE6C247FB1F2007E4243 /* DemoEmptyView.m in Sources */,
+				186FEE6D247FB1F2007E4243 /* UIView+ZXEmpty.m in Sources */,
+				186FEE6E247FB1F2007E4243 /* DemoCustomViewVC.m in Sources */,
+				186FEE6F247FB1F2007E4243 /* DemoCustomEmptyView.m in Sources */,
+				186FEE70247FB1F2007E4243 /* ZXFullEmptyView.m in Sources */,
+				186FEE71247FB1F2007E4243 /* UIView+ZXEmptyViewKVO.m in Sources */,
+				186FEE72247FB1F2007E4243 /* ZXEmptyTitleLabel.m in Sources */,
+				186FEE73247FB1F2007E4243 /* DemoTableViewVC.m in Sources */,
+				186FEE74247FB1F2007E4243 /* DemoCollectionViewCell.m in Sources */,
+				186FEE75247FB1F2007E4243 /* DemoBaseVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		742B52282344503900C02C9A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -475,10 +554,12 @@
 				742B52852348984100C02C9A /* UIView+ZXEmptyAutoShow.m in Sources */,
 				742B52C0234B9DE400C02C9A /* DemoUIViewVC.m in Sources */,
 				742B52A4234B114300C02C9A /* DemoCollectionHeaderView.m in Sources */,
+				186FEE53247FB188007E4243 /* AAObject.m in Sources */,
 				742B523F2344503B00C02C9A /* main.m in Sources */,
 				742B52BD234B987E00C02C9A /* MBProgressHUD.m in Sources */,
 				74187883235094F90005BA25 /* UIViewController+Dealloc.m in Sources */,
 				742B52AA234B2D1400C02C9A /* DemoSelectionVC.m in Sources */,
+				186FEE56247FB1B1007E4243 /* AAViewController.m in Sources */,
 				742B52702346E5BE00C02C9A /* UILabel+ZXGetStringSize.m in Sources */,
 				748F9CD02351FC7600190591 /* DemoMain.m in Sources */,
 				742B528B2348B3BB00C02C9A /* NSObject+ZXEmptySwizzleMethod.m in Sources */,
@@ -499,23 +580,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		742B52402344503C00C02C9A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				742B52492344503C00C02C9A /* ZXEmptyViewDemoUITests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		742B52462344503C00C02C9A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 742B522B2344503900C02C9A /* ZXEmptyViewDemo */;
-			targetProxy = 742B52452344503C00C02C9A /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		742B523A2344503B00C02C9A /* LaunchScreen.storyboard */ = {
@@ -529,6 +594,44 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		186FEE82247FB1F2007E4243 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X3UA5897T2;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "ZXEmptyViewDemo copy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.zxlee.ZXEmptyViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		186FEE83247FB1F2007E4243 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X3UA5897T2;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "ZXEmptyViewDemo copy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.zxlee.ZXEmptyViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		742B524B2344503C00C02C9A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -647,6 +750,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = X3UA5897T2;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = ZXEmptyViewDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -665,6 +769,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = X3UA5897T2;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = ZXEmptyViewDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -677,45 +782,18 @@
 			};
 			name = Release;
 		};
-		742B52512344503C00C02C9A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = X3UA5897T2;
-				INFOPLIST_FILE = ZXEmptyViewDemoUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = cn.zxlee.ZXEmptyViewDemoUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = ZXEmptyViewDemo;
-			};
-			name = Debug;
-		};
-		742B52522344503C00C02C9A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = X3UA5897T2;
-				INFOPLIST_FILE = ZXEmptyViewDemoUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = cn.zxlee.ZXEmptyViewDemoUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = ZXEmptyViewDemo;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		186FEE81247FB1F2007E4243 /* Build configuration list for PBXNativeTarget "ZXEmptyViewDemo copy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				186FEE82247FB1F2007E4243 /* Debug */,
+				186FEE83247FB1F2007E4243 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		742B52272344503900C02C9A /* Build configuration list for PBXProject "ZXEmptyViewDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -730,15 +808,6 @@
 			buildConfigurations = (
 				742B524E2344503C00C02C9A /* Debug */,
 				742B524F2344503C00C02C9A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		742B52502344503C00C02C9A /* Build configuration list for PBXNativeTarget "ZXEmptyViewDemoUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				742B52512344503C00C02C9A /* Debug */,
-				742B52522344503C00C02C9A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
